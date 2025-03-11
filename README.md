@@ -1,67 +1,11 @@
-# Loan Calculator App
+First, I looked at how other loan websites are designed to get some ideas for my own project.
 
-A modern React application for calculating loan proposals with real-time updates and a beautiful UI. Built with React, TypeScript, and modern web technologies.
+I used the following third-party libraries:
+1. slider (rc-slider).
+2. tool tip - (react-tooltip)
 
-## Features
+My goal was to create a solution that's clean and easy to use,I wanted it to be similar to what I’ve seen on other loan provider sites like banks or Mimun Yashir.
 
-- Real-time loan calculation
-- Age-based client categorization
-- Interactive sliders for loan amount and period
-- Responsive design
-- Beautiful success view with animations
-- Form validation
-- Error handling
-- Tooltip information
-- RTL support
+I decided to use React because I have experience with it from my own projects, though I also know Vue.
 
-## Tech Stack
-
-- React
-- TypeScript
-- rc-slider
-- react-tooltip
-- CSS Animations
-- REST API integration
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-```bash
-git clone https://github.com/YOUR_USERNAME/loan-calculator.git
-cd loan-calculator
-```
-
-2. Install dependencies
-```bash
-npm install
-# or
-yarn
-```
-
-3. Start the development server
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-The application will be available at `http://localhost:5173`
-
-## API Configuration
-
-The application expects a backend API running at `http://localhost:5000/api` by default. You can modify this in `src/config/api.ts`.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+The UI is simple and flexible, and we can adjust it however needed to meet the customer’s requirements.
